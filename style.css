@@ -1,31 +1,457 @@
-#navbar {
-    margin: 0;
-    padding: 34px 696px;
-    list-style-type: none;
-    width: 750px;
-    text-align: center;
-  }
 
-  #navbar a {
-    color: black;
-    padding: 34px 10px;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    width: 100px;
-  }
+  
+  
+li {
+  display: inline;
+} 
+ul {
+  margin: 23px 696px;
+}
 
-#navbar li { display: inline; }
+.Tar {
+  position: absolute;
+  width: 42px;
+  height: 21px;
+  left: 313px;
+  top: 34px;
 
-#navbar a:hover {
-    background-color: #666;
-    
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 144% */
+
+  letter-spacing: 0.288px;
+
+  color: #1C1C1C;
+}
+
+.Res {
+position: absolute;
+width: 91px;
+height: 21px;
+left: 387px;
+top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.288px;
+
+color: #000000;
+}
+
+.Mod {
+  position: absolute;
+width: 66px;
+height: 21px;
+left: 510px;
+top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.288px;
+
+color: #1C1C1C;
+}
+
+.Fra {
+  position: absolute;
+width: 97px;
+height: 21px;
+left: 756px;
+top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.288px;
+
+color: #000000;
+}
+
+.Cnn {
+  position: absolute;
+width: 81px;
+height: 21px;
+left: 885px;
+top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.288px;
+
+color: #000000;
+}
+
+.Cre {
+  position: absolute;
+width: 113px;
+height: 21px;
+left: 1023px;
+top: 34px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 144% */
+
+letter-spacing: 0.288px;
+
+color: #1C1C1C;
 }
 
 #phone {
-    padding: 77px 966px;
+  position: absolute;
+width: 561px;
+height: 720px;
+left: 583px;
+top: 77px;
+
+background: url(.png);
+border-radius: 0px;
 }
 
-#head_masage {
-    padding: 4px 138px;
+.masage_1  {
+  position: absolute;
+width: 490px;
+height: 344px;
+left: 40px;
+top: 138px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 69px;
+/* or 111% */
+
+letter-spacing: 1.248px;
+
+color: #000000;
+}
+
+.post_1 {
+  position: absolute;
+width: 502px;
+height: 96px;
+left: 40px;
+top: 501px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+
+.post_2 {
+  position: absolute;
+width: 438px;
+height: 224px;
+left: 559px;
+top: 945px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+
+.masage_2 {
+  position: absolute;
+width: 472px;
+height: 66px;
+left: 559px;
+top: 862px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+/* or 110% */
+
+letter-spacing: 0.6px;
+
+color: #000000;
+}
+
+#player {
+  position: absolute;
+width: 450px;
+height: 550px;
+left: 56px;
+top: 805px;
+
+background: url(.png);
+border-radius: 0px;
+}
+
+.masage_3 {
+  position: absolute;
+width: 422px;
+height: 99px;
+left: 170px;
+top: 1353px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+/* or 110% */
+
+letter-spacing: 0.6px;
+
+color: #000000;
+
+}
+
+.post_3 {
+  position: absolute;
+width: 441px;
+height: 103px;
+left: 170px;
+top: 1523px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+
+
+color: #000000;
+  
+}
+
+#masage_img {
+  position: absolute;
+width: 553px;
+height: 431px;
+left: 591px;
+top: 1310px;
+
+background: url(.png);
+border-radius: 15px;
+}
+
+#more {
+  position: absolute;
+width: 600px;
+height: 400px;
+left: 56px;
+top: 1795px;
+
+background: url(.png);
+border-radius: 10px;
+}
+
+.masage_4 {
+  position: absolute;
+width: 369px;
+height: 99px;
+left: 650px;
+top: 1871px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+/* or 110% */
+
+letter-spacing: 0.6px;
+
+color: #000000;
+
+}
+
+.post_4 {
+  position: absolute;
+width: 425px;
+height: 77px;
+left: 650px;
+top: 1992px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+
+#xyz {
+  position: absolute;
+width: 515px;
+height: 389px;
+left: 629px;
+top: 2267px;
+
+background: url(.png);
+border-radius: 15px;
+}
+
+.masage_5 {
+  position: absolute;
+width: 439px;
+height: 66px;
+left: 100px;
+top: 2268px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+/* or 110% */
+
+letter-spacing: 0.6px;
+
+color: #000000;
+}
+
+.post_5 {
+position: absolute;
+width: 436px;
+height: 103px;
+left: 100px;
+top: 2389px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+
+#price {
+  position: absolute;
+width: 520px;
+height: 755px;
+left: 146px;
+top: 2697px;
+
+background: url(.png);
+border-radius: 15px;
+}
+
+.masage_6 {
+  position: absolute;
+width: 436px;
+height: 132px;
+left: 644px;
+top: 2804px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+/* or 110% */
+
+letter-spacing: 0.6px;
+
+color: #000000;
+}
+
+.post_6 {
+  position: absolute;
+width: 409px;
+height: 154px;
+left: 644px;
+top: 2958px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 160% */
+
+
+color: #000000;
+
+}
+
+.scroll_menu1 {
+  position: absolute;
+width: 951px;
+height: 74px;
+left: 40px;
+top: 3529px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 34px;
+line-height: 37px;
+/* or 109% */
+
+letter-spacing: 0.672px;
+
+color: #000000;
+}
+
+.scroll_menu2 {
+  position: absolute;
+  width: 636px;
+  height: 74px;
+  left: 56px;
+  top: 4928px;
+  
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 37px;
+  /* or 109% */
+  
+  letter-spacing: 0.672px;
+  
+  color: #000000;
 }
