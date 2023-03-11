@@ -1,0 +1,31 @@
+#navbar {
+    margin: 0;
+    padding: 34px 696px;
+    list-style-type: none;
+    width: 750px;
+    text-align: center;
+  }
+
+  #navbar a {
+    color: black;
+    padding: 34px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+  }
+
+#navbar li { display: inline; }
+
+#navbar a:hover {
+    background-color: #666;
+    
+}
+
+#phone {
+    padding: 77px 966px;
+}
+
+#head_masage {
+    padding: 4px 138px;
+}
